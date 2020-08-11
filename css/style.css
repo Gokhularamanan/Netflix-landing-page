@@ -1,6 +1,7 @@
 :root
 {
     --primary-color:#e50914;
+    --dark-color:#141414;
 }
 
 *
@@ -120,6 +121,14 @@ body{
 }
 
 
+
+/*Tabs*/
+.tabs
+{
+   background: var(--dark-color) ;
+   padding: 1rem;   
+   border-bottom: 3px solid #3d3d3d;
+}
 /*Buttons*/
 .btn
 {
